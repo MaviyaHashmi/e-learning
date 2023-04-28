@@ -1,0 +1,457 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 20px 0px;
+    color:black;
+    font-size: 40px;
+    text-align: center
+}
+
+h2{
+    font-size: 30px;
+    color: rgba(231, 181, 15, 0.938);
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+button{
+    margin: 20px 110px;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+    height: 45px;
+    background-color: rgb(22, 22, 53);
+}
+ button:hover{
+    background-color: rgb(15, 38, 170);
+}
+
+/*--------------------------------------Navbar page-------------------------------------------*/
+
+.logo{
+    height: 80px;
+    width: 100px;
+    margin-right: 80px;
+}
+.logo>img{
+    border-radius: 50px;
+    height: 80px;
+    width: 100px;
+}
+
+.Title>h1{
+    color: white;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    width: auto;
+    justify-content: center;
+    background-color: rgb(74, 98, 207);
+    padding-top: 0px;
+    align-items: center;
+}
+
+nav{
+    height: 60px;
+    width: auto;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    border: 1px solid black;
+    box-shadow: 1px 4px 7px 1px;
+   
+}
+nav>div{
+    margin: 9px auto;
+    padding: 7px 0px;
+    display:flex;
+}
+
+.a1 input{
+    height: 30px;
+    width:200px;
+    text-align: left;
+}
+ .a2>div{
+   padding-left: 80px;
+ }
+
+.a2 a{
+    padding: 8px ;
+    text-decoration: none;
+    color:  rgb(32, 32, 80);
+    font-size:22px; 
+    font-weight:bold;  
+}
+
+.a2 a:hover{
+    color: rgb(204, 185, 10);
+}
+.a2 a:active{
+    color: rgb(204, 185, 10);
+}
+
+#bds{
+    background-image: url(images/unsplash.jpg);
+    height: 700px;
+    width: auto;
+}
+
+/*---------------------------------Login and Signup-----------------------*/
+
+form{
+    margin: 50px auto;
+    padding: 50px 3px;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+form>div{
+  margin: 30px 0px; 
+  padding: 0px 20px;
+  justify-content: space-between; 
+}
+.inputs>input{
+    margin-top: 20px;
+    height: 30px;
+    width: 250px;
+}
+
+.lgs>input{
+    background-color: rgb(22, 22, 53);
+    color: azure;
+    border: 0px;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 18px;
+    font-weight: bolder;   
+}
+.lgs>input:hover{
+    background-color: rgb(216, 160,7);
+    box-shadow: 0px 0px 10px black;
+}
+
+form>a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: red;
+    border: 1px solid rgb(216, 21, 21);
+    padding: 8px;
+
+}
+form>a:hover{
+    color: rgb(28, 64, 163);
+    border: 1px solid rgb(20, 69, 160);
+}
+
+#block{
+    display: flex;
+    margin: 200px auto;
+}
+
+.text{
+    margin: 100px;
+    text-align: center;
+}
+
+#block>h3{
+  font-size: 25px;
+  margin: 0px auto; 
+  background-color: rgb(7, 124, 170);
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 4px 0.5px;
+  cursor: pointer;
+}
+#block>h3:hover{
+  background-color: rgb(34, 52, 212);
+  box-shadow: 3px 3px 4px black;
+  cursor: pointer;
+}
+
+#block a{
+    text-decoration: none;
+    color:white;
+    text-shadow: 1px 1px 1px white;
+    font-size: 25px;
+}
+
+.Courses{
+    display: flex;
+    cursor: pointer;
+}
+
+.Courses>div{
+    background-color: rgb(27, 125, 204);
+    margin: 30px auto;
+    height: 400px;
+    width: 370px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+}
+.Courses>div:hover{
+    background-color: rgba(255, 148, 9, 0.884);
+    margin: 24px auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 5px black;
+}
+
+.course{
+    padding: 10px 10px;
+}
+
+#Home{
+    height: 700px;
+    width: auto;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+   height: 200px;
+   width: auto;
+   background-color: rgb(0, 0, 0);
+}
+
+#Home{
+    display: flex;
+}
+
+aside{
+    overflow: scroll;
+    font-size: 20px;
+    height: 700px;
+    width: 350px;
+    background-color: rgba(189, 162, 12, 0.726);
+    padding: 10px 10px;
+    list-style: none;
+    box-shadow: 2px 2px 3px 1px ;
+}
+
+aside details{
+    padding: 10px;
+}
+
+article{
+    margin: 30px auto;
+}
+
+article>.a43{
+    margin: 0px 60px;
+    padding: 10px 50px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(255, 248, 254);
+    background-image: url(images/joanna.jpg);
+}
+
+article>.a44{
+    margin: 0px 0px;
+    text-align: center;
+}
+.a44 button{
+    margin: 20px 0px;
+    padding: 12px 350px ;
+    background-color: rgb(20, 22, 49);
+    box-shadow: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.a44 button:hover{
+    background-color:rgb(216, 160, 7);
+    box-shadow: 0px 0px 10px black;
+}
+
+.det{
+    color: black;
+    margin: 10px 40px;
+    font-size: 14px;
+}
+.top{
+    margin: 10px auto;
+    background-image:linear-gradient(to right, rgb(209, 163, 10),white);
+    height: 100px;
+    width: auto;
+    background-size: cover;
+    padding: 0px 110px ;
+    font-size: 25px;
+}
+.text h1{
+    color: rgba(231, 181, 15, 0.938);
+}
+
+.top>h1{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.a10{
+    text-align: center;
+    margin: 30px;
+    color: rgb(247, 247, 247);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(57, 109, 206);
+}
+/*-----------------------------------Contact Us---------------------------------------*/
+.enq{
+    display: flex;
+    text-align: center;
+    background-image: url(images/unsplash.jpg);
+    background-size: cover;
+}
+.enq>div{
+    margin: 20px auto;
+}
+.enq1>form{
+    height: 600px;
+    background-color: white;
+    border: 0px;
+    box-shadow: 2px 2px 10px black;
+}
+.enq1 input{
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+    padding: 20px 10px;
+    border: 0px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.enq1 button{
+    background-color: rgb(22, 22, 53);
+    color: azure;
+    border: 0px;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.enq1 button:hover{
+    background-color: rgb(216, 160, 7);
+    box-shadow: 0px 0px 10px black;
+}
+
+/*--------------------------------footer------------------------------*/
+
+footer{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 1px 4px 5px ;
+}
+footer>div{
+   justify-content: space-between;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: rgb(54, 8, 182);
+    font-weight: 500;
+}
+
+/*--------------------------------feculty-----------------------------------*/
+.a29{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.a29 img{
+    height: 150px;
+    width: 200px;
+}
+.a29>div{
+    height: 300px;
+    width: 400px;
+    margin: 10px ;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+}
+
+#a27>h1{
+    text-align: center;
+    
+}
+
+#faq{
+    margin: 40px ;
+}
+
+#faq>h1{
+    text-align: center;
+}
+#faq>details{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 25px 50px;
+    width: auto;
+    padding: 20px 30px;
+    box-shadow: 0px 4px 4px black;
+}
+
+#i45{
+    display: flex;
+    background-color: rgb(205, 185, 224);
+    height: 400px;
+    width:auto;
+    margin: 40px 120px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+#i45>div{
+    margin: 100px auto;
+}
+
+
+.a38 input{
+    padding: 0px 20px ;
+    height: 42px;
+    width: 320px;
+    border: 0px;
+    box-shadow: 0px 0px 10px black;
+}
+.a38 select{
+    margin: 0px 20px;
+    padding: 0px 20px ;
+    height: 42px;
+    width: 200px;
+    border: 0px;
+    box-shadow: 0px 0px 10px black;
+}
+.a38 button{
+    margin: 20px 110px;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+    height: 45px;
+    background-color: rgb(170, 97, 238);
+}
+.a38 button:hover{
+    background-color: rgb(15, 38, 170);
+}
